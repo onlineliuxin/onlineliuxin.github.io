@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo," />
+  <meta name="keywords" content="123," />
 
 
 
@@ -94,19 +94,40 @@
 
 
 
-<meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="description" content="在CentOS上搭建C开发环境
+前置条件，CentOS系统已经安装成功，并且可以联网，使用ping可以ping通百度主页。
+以root权限登录。
+
+安装wget.可以输入wget先测试是否已经安装，如果没有，就使用yum -y install wget来安装
+
+装gcc.可以输入gcc检测是否已经安装，如果没有，就使用yum install gcc来安装.
+
+安装gdb.可以输入gdb检测是否已经">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello Hexo">
-<meta property="og:url" content="/2017/04/29/hello-world/index.html">
+<meta property="og:title" content="在CentOS上搭建C开发环境">
+<meta property="og:url" content="/2017/05/14/CentOS上搭建C开发环境/index.html">
 <meta property="og:site_name" content="The2b">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
-<meta property="og:updated_time" content="2017-05-14T15:26:36.806Z">
+<meta property="og:description" content="在CentOS上搭建C开发环境
+前置条件，CentOS系统已经安装成功，并且可以联网，使用ping可以ping通百度主页。
+以root权限登录。
+
+安装wget.可以输入wget先测试是否已经安装，如果没有，就使用yum -y install wget来安装
+
+装gcc.可以输入gcc检测是否已经安装，如果没有，就使用yum install gcc来安装.
+
+安装gdb.可以输入gdb检测是否已经">
+<meta property="og:updated_time" content="2017-05-14T15:26:34.014Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello Hexo">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick">
+<meta name="twitter:title" content="在CentOS上搭建C开发环境">
+<meta name="twitter:description" content="在CentOS上搭建C开发环境
+前置条件，CentOS系统已经安装成功，并且可以联网，使用ping可以ping通百度主页。
+以root权限登录。
+
+安装wget.可以输入wget先测试是否已经安装，如果没有，就使用yum -y install wget来安装
+
+装gcc.可以输入gcc检测是否已经安装，如果没有，就使用yum install gcc来安装.
+
+安装gdb.可以输入gdb检测是否已经">
 
 
 
@@ -134,13 +155,13 @@ Quick">
 
 
 
-  <link rel="canonical" href="/2017/04/29/hello-world/"/>
+  <link rel="canonical" href="/2017/05/14/CentOS上搭建C开发环境/"/>
 
 
 
 
 
-  <title>Hello Hexo | The2b</title>
+  <title>在CentOS上搭建C开发环境 | The2b</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -333,7 +354,7 @@ Quick">
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="/2017/04/29/hello-world/">
+    <link itemprop="mainEntityOfPage" href="/2017/05/14/CentOS上搭建C开发环境/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="三明治">
@@ -354,7 +375,7 @@ Quick">
             
             
               
-                Hello Hexo
+                在CentOS上搭建C开发环境
               
             
           </h2>
@@ -369,8 +390,8 @@ Quick">
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-04-29T11:47:21+08:00">
-                2017-04-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-14T13:27:38+08:00">
+                2017-05-14
               </time>
             
 
@@ -379,6 +400,28 @@ Quick">
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/三明治/" itemprop="url" rel="index">
+                    <span itemprop="name">三明治</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -409,15 +452,22 @@ Quick">
       
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start-快速开始"><a href="#Quick-Start-快速开始" class="headerlink" title="Quick Start 快速开始"></a>Quick Start 快速开始</h2><h3 id="Create-a-new-post-创建一篇新的文章"><a href="#Create-a-new-post-创建一篇新的文章" class="headerlink" title="Create a new post 创建一篇新的文章"></a>Create a new post 创建一篇新的文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Generate-static-files-生成页面"><a href="#Generate-static-files-生成页面" class="headerlink" title="Generate static files 生成页面"></a>Generate static files 生成页面</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Run-server-启动服务"><a href="#Run-server-启动服务" class="headerlink" title="Run server 启动服务"></a>Run server 启动服务</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Deploy-to-remote-sites-部署github"><a href="#Deploy-to-remote-sites-部署github" class="headerlink" title="Deploy to remote sites 部署github"></a>Deploy to remote sites 部署github</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>在CentOS上搭建C开发环境</p>
+<p>前置条件，CentOS系统已经安装成功，并且可以联网，使用ping可以ping通百度主页。</p>
+<p>以root权限登录。</p>
+<ol>
+<li><p>安装wget.可以输入wget先测试是否已经安装，如果没有，就使用yum -y install wget来安装</p>
+</li>
+<li><p>装gcc.可以输入gcc检测是否已经安装，如果没有，就使用yum install gcc来安装.</p>
+</li>
+<li><p>安装gdb.可以输入gdb检测是否已经安装，如果没有，就使用yum install gdb来安装</p>
+</li>
+<li><p>安装make.可以输入make检测是否已经安装，如果没有，就使用yum install make来安装</p>
+</li>
+</ol>
+<p>安装完成以后，可以创建一个main.c文件，写一个hello程序来测试gcc是否正常工作<br>~</p>
+<p>#include <stdio.h><br>int<br>main(int argc,char ** argv)<br>  {<br>    printf(“hello world!”);<br>    return 0;<br>    }<br>~<br>使用gcc main.c来编译程序，默认产生的是a.out文件。</stdio.h></p>
+<p>使用./a.out来测试，如果正常，则会打印hello world!，祝你好运！</p>
 
       
     </div>
@@ -447,7 +497,7 @@ Quick">
       
         <div class="post-tags">
           
-            <a href="/tags/Hexo/" rel="tag"># Hexo</a>
+            <a href="/tags/123/" rel="tag"># 123</a>
           
         </div>
       
@@ -460,8 +510,8 @@ Quick">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/04/01/我是三明治/" rel="next" title="我是三明治">
-                <i class="fa fa-chevron-left"></i> 我是三明治
+              <a href="/2017/05/11/Centos/" rel="next" title="Centos">
+                <i class="fa fa-chevron-left"></i> Centos
               </a>
             
           </div>
@@ -469,10 +519,6 @@ Quick">
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/04/29/甘泉雨岔大峡谷/" rel="prev" title="甘泉雨岔大峡谷">
-                甘泉雨岔大峡谷 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -544,17 +590,8 @@ Quick">
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -616,22 +653,6 @@ Quick">
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start-快速开始"><span class="nav-number">1.</span> <span class="nav-text">Quick Start 快速开始</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post-创建一篇新的文章"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post 创建一篇新的文章</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files-生成页面"><span class="nav-number">1.2.</span> <span class="nav-text">Generate static files 生成页面</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server-启动服务"><span class="nav-number">1.3.</span> <span class="nav-text">Run server 启动服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites-部署github"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites 部署github</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
